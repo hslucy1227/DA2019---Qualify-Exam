@@ -11,7 +11,7 @@ library(ggbiplot)
 options(scipen = 200)
 
 # load data
-data = read.table("D:/UCI/19spring/DA2019/DA2019.csv", sep=",", header = T)
+data = read.table("DA2019.csv", sep=",", header = T)
 dim(data)
 head(data)
 str(data)
